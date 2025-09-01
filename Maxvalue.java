@@ -1,0 +1,17 @@
+class Maxvalue 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Byte"+Byte.MAX_VALUE);
+		System.out.println("Int"+Integer.MAX_VALUE);
+		System.out.println("Short"+Short.MAX_VALUE);
+		System.out.println("Long:"+Long.MAX_VALUE);
+		System.out.println("float:"+Float.MAX_VALUE);
+		System.out.println("double:"+Double.MAX_VALUE);
+		
+		System.out.println("Byte:"+Byte.MIN_VALUE);
+		System.out.println("Short:"+Short.MIN_VALUE);
+		System.out.println("Int:"+Integer.MIN_VALUE);
+		System.out.println("LOng:"+Long.MIN_VALUE);
+	}
+}

@@ -1,0 +1,16 @@
+import java.util.*;
+class Numorletorspl
+{
+	static Scanner sc=new Scanner (System.in);
+	public static void main(String[] args) throws Exception 
+	{
+		System.out.print("Enter the Value:");
+		char value=sc.next().charAt(0);
+			
+		String res=(value>='A' && value<='Z')||(value>='a' &&value<='z')?"This is a letter":(value>=0 && value<=0)?"This is a number":"This is a Special character";
+		System.out.println("Processing.....");
+		Thread.sleep(3000);
+		
+		System.out.println("Result:"+res);
+	}
+}

@@ -1,0 +1,17 @@
+import java.util.*;
+class Grade 
+{
+	static Scanner sc=new Scanner (System.in);
+	public static void main(String[] args) throws Exception
+	{
+		System.out.print("\t\t\tEnter the mark:");
+		int mark=sc.nextInt();
+		
+		String res = (mark>=90 && mark<=100)?"Grade A":(mark>=70 && mark<=89)?"Grade B":(mark>=35 && mark<=69)?"Grade c":(mark>=0 && mark<=34)?"Fail":(mark>100 || mark<0)?"invalid":"Error";
+		System.out.println("\t\t\tProcessing....");
+		
+		Thread.sleep(3000);
+		
+		System.out.println("Result:"+res);
+	}
+}

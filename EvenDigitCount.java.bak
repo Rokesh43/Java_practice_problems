@@ -1,0 +1,25 @@
+import java.util.Scanner;
+ class EvenDigitCount {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Input number
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+
+        int count = 0; // to count even digits
+        int temp = num; // copy of number
+
+        // While loop to extract each digit
+        while (temp > 0) {
+            int digit = temp % 10;  // get last digit
+            if (digit % 2 == 0) {   // check if even
+                count++;
+            }
+            temp = temp / 10;       // remove last digit
+        }
+
+        System.out.println("Number of even digits in " + num + " = " + count);
+    }
+}
+

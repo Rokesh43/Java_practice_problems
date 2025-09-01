@@ -1,0 +1,18 @@
+class Testclass
+{
+	public static void main(String[]args)
+	{
+		boolean a=false;
+		System.out.println("a:"+a);
+		float b=5.3f;
+		System.out.println(b=2.1f);
+		System.out.println(b);
+		long c=123L;
+		a=true;
+		System.out.println(a);
+		b=1.1f;
+		System.out.println(c);
+		System.out.println(b);
+		
+	}
+}

@@ -1,0 +1,24 @@
+class DemoProgram 
+{
+	public static void main(String[] args) 
+	{
+		int a;
+		char b;
+		String c;
+		System.out.println("start");
+		a=10;
+		b='#';
+		c="java";
+		System.out.println("a:"+a);
+		System.out.println("b:"+b);
+		System.out.println("c:"+c);
+		a=20;
+		b='&';
+		c="Python";
+		System.out.println("start program....");
+		System.out.println("a:"+a);
+		System.out.println("b:"+b);
+		System.out.println("c:"+c);
+		
+	}
+}

@@ -1,0 +1,24 @@
+import java .util.*;
+class  Zomoto
+{
+	static Scanner sc=new Scanner (System.in);
+	public static void main(String[] args) 
+	{
+		System.out.println("\t\t\t----Welcome to Zomoto ----");
+		System.out.println("1.A1 ");
+		System.out.println("2.A2B ");
+		System.out.println("3.Amma Canteen");
+		System.out.print("Enter the Hotel: ");
+		int hotel=sc.nextInt();
+		
+		switch (hotel)
+		{
+		case 1 ->{
+			System.out.println("1.Muttom Briyani\n2.Chikken Briyani\n3.Beep briyani");
+		}
+		
+		}
+		
+		
+	}
+}

@@ -1,0 +1,17 @@
+class  Test23
+{
+	public static void main(String[] args) 
+	{
+		int a=8;
+		int b=16;
+		
+		while (a<=b)
+		{
+			a++;
+			if (a%2==0)
+			{
+				System.out.println(a);
+			}
+		}
+	}
+}

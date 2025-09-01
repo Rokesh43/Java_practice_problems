@@ -1,0 +1,24 @@
+import java.util.*;
+class Employeeform
+{
+	static Scanner sc=new Scanner (System.in);
+	public static void main (String[]args)
+	{
+		System.out.print("Enter Employee Id:");
+		int eid=sc.nextInt();
+		
+		System.out.print("Enter Employee Salary:");
+		double sal=sc.nextDouble();
+		
+		System.out.print("Enter Employee phoneNo:");
+		long ph=sc.nextLong();
+		
+		System.out.println("Enter Employee Gender:");
+		char gender=sc.next().charAt(0);
+		
+		System.out.println("Employee Id:"+eid);
+		System.out.println("Employee salary:"+sal);
+		System.out.println("Employee Phoneno:"+ph);
+		System.out.println("Employee Gender:"+gender);
+	}
+}

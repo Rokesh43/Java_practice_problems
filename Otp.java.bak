@@ -1,0 +1,8 @@
+class Otp
+{
+	public static void main (String [] args)
+	{
+	  float otp= (float)Math.random();
+		System.out.println(otp);
+	}
+}

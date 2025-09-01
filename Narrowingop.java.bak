@@ -1,0 +1,11 @@
+class Narrowingop 
+{
+	public static void main(String[] args) 
+	{
+		int a=34765;
+		float res=(float)a;
+		
+		System.out.println("int:"+a);
+		System.out.println("Float:"+res);
+	}
+}

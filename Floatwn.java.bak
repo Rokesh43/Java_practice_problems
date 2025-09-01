@@ -1,0 +1,11 @@
+class Floatwn 
+{
+	public static void main(String[] args) 
+	{
+		float a=5677889.9f;
+		char c=(char)a;
+		
+		System.out.println("float:"+a);
+		System.out.println("int:"+i);
+	}
+}

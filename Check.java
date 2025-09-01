@@ -1,0 +1,26 @@
+import java.util.*;
+class  Check
+{
+	static Scanner sc=new Scanner (System.in);
+	public static void main(String[] args) throws Exception 
+	{
+		System.out.print("\t\t\tEnter the Value:");
+		char value=sc.next().charAt(0);
+		System.out.println("\t\t\tProcessing....");
+		Thread.sleep(3000);
+		
+		if(value>='A' && value<='Z' || value<='a' && value<='b')
+		{
+			System.out.println("Letter");
+		}
+		else if(value>='0' && value<='9');
+		{
+			System.out.println("Number");
+		}
+		else 
+		{
+			System.out.println("Special Character");
+		}
+	}
+		
+}

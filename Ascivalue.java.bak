@@ -1,0 +1,8 @@
+class Ascivalue 
+{
+	public static void main(String[] args) 
+	{
+		char a='A';
+		System.out.println("Asci Value:"+a);
+	}
+}

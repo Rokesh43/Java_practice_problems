@@ -1,0 +1,20 @@
+import java .util.*;
+class  Traffic
+{
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter the Signal: ");
+		String value=sc.nextLine();
+		
+		if(value.equals("RED" )|| value.equals("red"))
+			System.out.println("Stop");
+		else if(value.equals("green") || value.equals("GREEN"))
+			System.out.println("Go");
+		else if(value.equals("YELLOW") || value.equals("yellow"))
+			System.out.println("Get Ready");
+		else
+			System.out.println("Not a Signal");
+			
+	}
+}

@@ -1,0 +1,30 @@
+import java.util.*;
+class Hotel
+{
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		boolean hotel=true;
+		
+		do
+		{
+			System.out.println("Welcome........");
+			System.out.println("1.Buhari\n2.A2B\n3.Amma Canteen\n4.Exit");
+			System.out.print("\t\t\tSelect your Choice :");
+			int num=sc.nextInt();
+			
+			switch (num)
+			{
+			case 1 ->System.out.println("\t\t\tGreeting from :Buhari");
+			case 2 ->System.out.println("\t\t\tGreeting from :A2B");
+			case 3 ->System.out.println("\t\t\tGreeting from :amma Canteen");
+			case 4 ->hotel=false;
+			default ->System.out.println("\t\t\tInvalid Choice");
+			
+			}
+		}
+		while (hotel);
+		System.out.println("Thank you");
+		
+	}
+}

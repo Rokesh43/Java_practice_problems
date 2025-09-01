@@ -1,0 +1,18 @@
+class Logical 
+{
+	public static void main(String[] args) 
+	{
+		int a=10;
+		int b=5;
+		int c=20;
+		
+		boolean res1=a<b  && c<b;
+		boolean res2=a>b || c<a;
+		boolean res3=!(res1 && res2);
+		
+		System.out.println("res1:"+res1);//----------false
+		System.out.println("res2:"+res2);//----------true
+		System.out.println("res3:"+res3);//----------true
+		
+	}
+}

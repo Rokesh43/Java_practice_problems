@@ -1,0 +1,34 @@
+import java.util.*;
+class Test29
+{
+	static Scanner sc=new Scanner (System.in);
+	public static void main (String [] args)
+	{
+		System.out.println("Enter the Number :");
+		int num=sc.nextInt();
+		
+		int evencount=0;
+		int oddcount=0;
+		
+		if (num==0)
+		{
+			evencount=1;
+		}
+		while (num>0)
+		{
+			int digit=num%10;
+			if (digit%2==0)
+			{
+				evencount++;
+			}
+			else
+				oddcount++;
+				
+			
+			num=num/10;
+		
+		}
+		System.out.println(evencount);
+		System.out.println(oddcount);
+	}
+}

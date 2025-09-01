@@ -1,0 +1,31 @@
+import java.util.*;
+class Percent
+{
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String [] args) 
+	{
+		System.out.print("Enter the Marks:");
+		double value =sc.nextDouble();
+		
+		if(value>100 || value<0)
+		{
+			System.out.println("Invalid");
+		}
+		else if(value>90)
+		{
+			System.out.println("Grade A");
+		}
+		else if(value>70)
+		{
+			System.out.println("Grade B");
+		}
+		else if(value>35)
+		{
+			System.out.println("Grade C");
+		}
+		else
+		{
+			System.out.println("Fail");
+		}
+	}
+}

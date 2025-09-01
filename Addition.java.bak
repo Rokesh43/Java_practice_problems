@@ -1,0 +1,13 @@
+class Addition 
+{
+	public static void main(String[] args) 
+	{
+		byte a=10;
+		byte b=40;
+		
+		int res = a+b;
+		System.out.println("a:"+a);
+		System.out.println("b:"+b);
+		System.out.println("result a+b=:"+res);
+	}
+}

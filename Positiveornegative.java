@@ -1,0 +1,19 @@
+import java.util.*;
+class Positiveornegative 
+{
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter the Value");
+		int value=sc.nextInt();
+		
+		if (value>0)
+		{
+			System.out.println("Positive");
+		}
+		else 
+		{
+			System.out.println("Negative");
+		}
+	}
+}

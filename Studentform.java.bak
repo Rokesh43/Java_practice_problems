@@ -1,0 +1,12 @@
+import java.util.*;
+class Studentform
+{
+	static Scanner sc=new Scanner(System.in);
+	public static void main (String [] args)
+	{
+		System.out.print("\t\t\tEnter Student id:");
+		int sid=sc.nextInt();
+		
+		System.out.println("Student Id:"+sid);
+	}
+}

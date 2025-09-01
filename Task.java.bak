@@ -1,0 +1,24 @@
+import java.util.*;
+class Task
+{
+	static Scanner sc=new Scanner (System.in);
+	public static void main(String[]args)
+	{
+		System.out.print("Enter the Age:");
+		int value = sc.nextInt();
+		
+		System.out.print("Enter the mark :");
+		double mark = sc.nextDouble();
+		
+		System.out.println("Enter the initial :");
+		char initial = sc.next().charAt(0);
+		
+		System.out.println(value);
+		System.out.println(mark);
+		System.out.println(initial);
+		
+		
+		
+		
+	}
+}

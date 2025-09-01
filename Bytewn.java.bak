@@ -1,0 +1,37 @@
+class Bytewn 
+{
+	public static void main(String[] args) 
+	{   // widenning
+		byte a=22;
+		short res=a;
+		int res1=a;
+		long res2=a;
+		char res3=(char)a;
+		boolean res4=(a==0);
+		float res5=a;
+		double res6=a;
+		
+		//narrowing
+		
+		short out=(short)a;
+		int out1=(int)a;
+		long out2=(long)a;
+		float out3=(float)a;
+		double out4=(double)a;
+		
+		System.out.println("Byte :"+a);
+		System.out.println("Short :"+res);
+		System.out.println("int :"+res1);
+		System.out.println("long :"+res2);
+		System.out.println("char :"+res3);
+		System.out.println("boolean :"+res4);
+		System.out.println("short :"+out);
+		System.out.println("int :"+out1);
+		System.out.println("float :"+res5);
+		System.out.println("double :"+res6);
+		System.out.println("int :"+out1);
+		System.out.println("int :"+out1);
+		System.out.println("int :"+out1);
+		
+	}
+}

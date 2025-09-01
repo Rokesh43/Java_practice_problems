@@ -1,0 +1,23 @@
+import java.util.*;
+class Count
+{
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.print("Starting Number :");
+		int start=sc.nextInt();
+		System.out.print("Ending Number:");
+		int end=sc.nextInt();
+		//int i=start;	
+		
+		while (start<=end)
+		{
+			System.out.println(start++ + "");
+		}
+	}
+}
+
+		                                                                                                                                                             
+																																									  
+      
+                                                                                             

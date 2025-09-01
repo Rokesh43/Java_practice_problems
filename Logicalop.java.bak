@@ -1,0 +1,12 @@
+class Logicalop 
+{
+	public static void main(String[] args) 
+	{
+		int a=10,b=20,c=30;
+		boolean res1=a<b&&c>a;
+		boolean res2=a>b || c<b;
+		boolean res3=res2!=res1;
+			
+		System.out.println("Res1:"+res1);
+	}
+}

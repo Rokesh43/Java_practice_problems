@@ -1,0 +1,97 @@
+import java.util.*;
+class Shopsy 
+{
+	static Scanner sc=new Scanner (System.in);
+	public static void main(String[]args)
+		
+	{
+		int mainchoice,schoice;
+		do
+		{
+			System.out.println("\t\t\tWelcome to Shopsy ");
+			System.out.println("1.Saravana Store\n2.Zudio\n3.Chennai Silks\n4.Exit");
+			System.out.print("\t\t\tEnter Your Choice :");
+		    mainchoice=sc.nextInt();
+			System.out.println("\n");
+			
+			
+			switch (mainchoice)
+			{
+			case 1 ->{
+				do
+				{
+					System.out.println("\t\t\t-----Welcome to Saravana Store-----");
+					System.out.println("\n\n");
+				    System.out.println("1.Shirts\n2.Pant\n3.Exit");
+				    System.out.print("\t\t\tEnter your Choice :");
+				    schoice=sc.nextInt();
+					
+					switch (schoice)
+					{
+					case 1->
+						System.out.println("\t\t\tShirts\n1.FormalShirts-Rs.500\n2.CottonShirts-Rs.400\n3.CheckedShirts-350");
+					case 2->
+						System.out.println("\t\t\tPants\n1.FormalPants-Rs.500\n2.CottonPants-Rs.400\n3.Jeans-Rs.350");
+					case 3->
+						System.out.println("\t\t\tBack to Main Menu");
+					default ->
+						System.out.println("\t\t\tInvalid Choice\nTry Again...");
+					}
+				}
+				while (schoice!=3);
+			}
+			case 2->{
+				do
+				{
+				System.out.println("\t\t\t---Welcome To Zudio---");
+				System.out.println("1.Tshirt\n2.Baggy\n3.Exit");
+				System.out.print("\t\t\tEnter your Choice :");
+			    schoice=sc.nextInt();
+				
+				
+				switch(schoice)
+				{
+					case 1->
+					System.out.println("\t\t\tTshirts\n\t\t\t1.RoundNeck-Rs.150\n\t\t\t2.CollarShirt-Rs.200");
+				case 2->
+					System.out.println("\t\t\tBaggy\n\t\t\t1.Baggy Shirt -Rs.600\n\t\t\t2.Baggy pant Rs.500");
+				case 3->
+					System.out.println("\t\t\tBack to Main Menu");
+				default ->
+					System.out.println("\t\t\tInvadid Choice\n\t\t\tTry Again ");
+				}
+				}
+				while (schoice!=3);
+				
+				}
+				case 3->{
+				do
+				{
+				System.out.println("\t\t\t---Welcome To Chennai silks---");
+				System.out.println("1.Saree\n2.Chudithar\n3.Exit");
+				System.out.print("\t\t\tEnter your Choice :");
+			    schoice=sc.nextInt();
+				switch(schoice)
+					{
+					case 1->
+						System.out.println("\t\t\tSaree\n1.HalfSaree -Rs.500\n2.Onam Saree -Rs.600\n3.Silk Saree -Rs.700\n4.Cotton Saree -Rs.550");
+					case 2->
+						System.out.println("\t\t\tChudithar\n1.Umberla Chudithar -Rs.600\n2.Shalwar -Rs.700\n3.Kurti -Rs.800");
+					case 3->
+						System.out.println("\t\t\tBack to main menu");
+					default ->
+						System.out.println("\t\t\tInvalid Choice \nTry Again");
+					}
+				}
+				while (schoice!=3);
+			
+			}
+			case 4->
+				System.out.println("\t\t\t-----Thanks for Shopping-----");
+			default->
+				System.out.println("\t\t\tInvaild Choice\n\t\t\tTry Again");
+		}
+		}
+		while (mainchoice!=4);
+	}
+} 

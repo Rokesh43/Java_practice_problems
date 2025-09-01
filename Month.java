@@ -1,0 +1,18 @@
+import java .util.*;
+class  Month
+{
+	static Scanner sc=new Scanner (System.in);
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter the month:");
+		int mon=sc.nextInt();
+		if(mon>12 && mon<0)
+			System.out.println("Invalid");
+		else if(mon>=9 && mon>=1)
+			System.out.println("Rainy");
+		else if(mon>=6)
+			System.out.println("Winter");
+		else if(mon>=3)
+			System.out.println("Summer");
+	}
+}

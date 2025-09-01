@@ -1,0 +1,16 @@
+class Ram 
+{
+	public static void main(String[] args) 
+	{
+		double wallet=2000;
+		System.out.println("Initial amount"+wallet);
+		
+		double add=500;
+		System.out.println("Adding amount "+add);
+		
+		wallet=wallet - add;
+		System.out.println("Available amount:"+wallet);
+		
+		
+	}
+}

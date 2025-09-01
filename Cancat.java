@@ -1,0 +1,9 @@
+class Concat 
+{
+	public static void main(String[] args) 
+	{
+		String a="java"+"script";
+		
+		System.out.println("RESULT:"+a);
+	}
+}

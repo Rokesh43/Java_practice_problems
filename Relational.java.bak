@@ -1,0 +1,22 @@
+class Relational 
+{
+	public static void main(String[] args) 
+	{
+		
+		int a=20;
+		int b=30;
+		
+		boolean res1= a==b;
+		boolean res2= a>b;
+		boolean res3 = a<b;
+		boolean res4 =a<=b;
+		boolean res5= a>=b;
+		
+		
+		System.out.println("Res1:"+res1);
+		System.out.println("Res2 :"+res2);
+		System.out.println("Res:3"+res3);
+		System.out.println("Res:4"+res4);
+		System.out.println("Res:5"+res5);
+	}
+}

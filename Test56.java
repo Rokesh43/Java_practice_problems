@@ -1,0 +1,16 @@
+class Test56
+{
+	public static void main(String [] args)throws Exception
+	{
+
+      int countdown = 3;
+while (countdown > 0) {
+	Thread.sleep(1000);
+    System.out.println(countdown);
+    countdown--;
+}
+Thread.sleep(2000);
+System.out.println("Happy New Year!!");
+
+	}
+}

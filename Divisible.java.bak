@@ -1,0 +1,22 @@
+
+class Divisible 
+{
+	public static void main(String[] args) 
+	{
+		int a=1;
+		int b=100;
+		
+		
+		for (int i=a;i<=b ;i++ )
+		{
+			if(i%3==0 && i%5==0)
+			{
+				int count=0;
+				int count=count++;
+				System.out.println(i);
+				
+			}
+		}
+		System.out.println("count :"+count);
+	}
+}
