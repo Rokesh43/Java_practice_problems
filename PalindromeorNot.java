@@ -1,0 +1,29 @@
+import java.util.*;
+class  PalindromeorNot
+{
+	static Scanner sc=new Scanner (System.in);
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter the Number :");
+		int number =sc.nextInt();
+		
+		boolean res=isPalindrome(number);
+		if (res)
+		{
+			System.out.println("Palindrome");
+		}
+		else 
+			System.out.println("Not a Palindrome");
+	}
+	public static boolean isPalindrome(int number)
+	{
+		int temp=number,rev=0;
+		
+		while (number>0)
+		{
+			rev=(rev*10)+(number%10);
+			number/=10;
+		}
+		return temp==rev;
+	}
+}

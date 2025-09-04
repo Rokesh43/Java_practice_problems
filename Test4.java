@@ -1,0 +1,20 @@
+class Test4
+{
+	public static void showstudent(String name,int mark)
+	{
+		System.out.println("Student name :"+name+"\nstudent mark :"+mark);
+		studentmark(mark);
+	}
+	public static void studentmark(int mark)
+	{
+		if(mark>=50)
+			System.out.println("Pass");
+		else
+			System.out.println("Fail");
+	}
+	public static void main (String [] args)
+	{
+		showstudent("Rokesh",60);
+	}
+	
+}

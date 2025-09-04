@@ -1,0 +1,21 @@
+class MethodFunction
+{
+	public static boolean calculate(int a,int b)
+	{
+		System.out.println("Sum :"+(a+b));
+		return false;
+	}
+	public static void main (String [] args)
+	{
+		System.out.println("Start the program");
+		boolean res=calculate(5,8);
+		if (res)
+		{
+			System.out.println("tiruupur");
+		}
+		else 
+			System.out.println("coimbatore");
+		
+		System.out.println("End");
+	}
+}
